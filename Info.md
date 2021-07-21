@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Tue Jul 21 04:12:10 UTC 2020 (2020-07-21T04:12:10+00:00).
+Last updated on Wed Jul 21 11:46:32 UTC 2021 (2021-07-21T11:46:32+00:00).
 
-Created using [Project U-Ray](https://github.com/SymbiFlow/prjuray) version [fa205c0](https://github.com/SymbiFlow/prjuray/commit/fa205c0d5bcebb4a123ce99cfb7b1cfca719af91).
+Created using [Project U-Ray](https://github.com/SymbiFlow/prjuray) version [6963c6a](https://github.com/SymbiFlow/prjuray/commit/6963c6ade34b4899200505c8b86e88c74a802f26).
 
 Latest commit was;
 ```
-commit fa205c0d5bcebb4a123ce99cfb7b1cfca719af91
-Merge: 4844162 0191d01
-Author: litghost <537074+litghost@users.noreply.github.com>
-Date:   Mon Jul 20 13:01:33 2020 -0700
+commit 6963c6ade34b4899200505c8b86e88c74a802f26
+Merge: 263cbb7 cb822ce
+Author: Tim Ansell <tansell@google.com>
+Date:   Fri Jun 18 09:55:36 2021 -0700
 
-    Merge pull request #18 from SymbiFlow/add_part_package_pins
+    Merge pull request #32 from antmicro/add-license-checking-gha
     
-    Add package pins when getting extra part data.
+    Add license checking gha
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Mon Jul 20 13:01:33 2020 -0700
 
 ### Settings
 
-Created using following [settings/zynqusp.sh (sha256: 2d664c78b8cd565ce92615ea02ec0cfd0e7e115f918f4347b3d684204c622ac2)](https://github.com/SymbiFlow/prjuray/blob/fa205c0d5bcebb4a123ce99cfb7b1cfca719af91/settings/zynqusp.sh)
+Created using following [settings/zynqusp.sh (sha256: 2d664c78b8cd565ce92615ea02ec0cfd0e7e115f918f4347b3d684204c622ac2)](https://github.com/SymbiFlow/prjuray/blob/6963c6ade34b4899200505c8b86e88c74a802f26/settings/zynqusp.sh)
 ```shell
 #!/bin/bash
 #
@@ -92,12 +92,12 @@ Results have checksums;
  * [`41e75c70b73fa609aea24bed5e8778adb7aacf9a79a08cefcbe3583d058e054f  ./zynqusp/segbits_clem_r.origin_info.db`](./zynqusp/segbits_clem_r.origin_info.db)
  * [`01d806d0f55ba62ed2af2deafa5c2160f00477bc76ff7df2a5c69cac40ca4459  ./zynqusp/segbits_cmt_right.db`](./zynqusp/segbits_cmt_right.db)
  * [`f0eb87f07a05fe69addc5ba51e2715d1b967f13a6446a6e7f0be4a909285bdb8  ./zynqusp/segbits_cmt_right.origin_info.db`](./zynqusp/segbits_cmt_right.origin_info.db)
- * [`7dccae1fdba384c2ba39baf883ab61579857b5dc02e578bd65eb259d401654ba  ./zynqusp/segbits_hdio_bot_right.db`](./zynqusp/segbits_hdio_bot_right.db)
- * [`57019d0dd3630949824becd7b92b2d3fb83738ba3e16d751e21f8739340a4d7f  ./zynqusp/segbits_hdio_bot_right.origin_info.db`](./zynqusp/segbits_hdio_bot_right.origin_info.db)
- * [`447d033863858ec0d712625bbd8370f8b0243f8a96ea80d7979b89eba9cff28b  ./zynqusp/segbits_hdio_top_right.db`](./zynqusp/segbits_hdio_top_right.db)
- * [`ae96512ab0b1744a2ed629d6512693b7f5b8c611f7cb10b2cb9df50d51edb950  ./zynqusp/segbits_hdio_top_right.origin_info.db`](./zynqusp/segbits_hdio_top_right.origin_info.db)
- * [`e710286cf9f2abefef1dcae2414de65955bd5fe2dacf36eed72137e1128f9e84  ./zynqusp/segbits_hpio_right.db`](./zynqusp/segbits_hpio_right.db)
- * [`6fc22620c37d7518453a56b4e29a901a1a1b2475434cafaa7e0d24e344d0c9c4  ./zynqusp/segbits_hpio_right.origin_info.db`](./zynqusp/segbits_hpio_right.origin_info.db)
+ * [`4ff712fcab373cb089ef205673c3ef96fd5d6c4b324f1cb15fc601c15997b7c3  ./zynqusp/segbits_hdio_bot_right.db`](./zynqusp/segbits_hdio_bot_right.db)
+ * [`30c180637ac83e169d70cd7245175e07c9cd8abbbcb630ea0a76395d75d71d28  ./zynqusp/segbits_hdio_bot_right.origin_info.db`](./zynqusp/segbits_hdio_bot_right.origin_info.db)
+ * [`f2a215c75b1acd53b2fb82249ce297dfabda76a3a3a00e9c8f7a72825886cd0c  ./zynqusp/segbits_hdio_top_right.db`](./zynqusp/segbits_hdio_top_right.db)
+ * [`e6a5e55cd49885be77ef8ca0d4ce7518ddefea50b50dc13703126da3bd43fdea  ./zynqusp/segbits_hdio_top_right.origin_info.db`](./zynqusp/segbits_hdio_top_right.origin_info.db)
+ * [`94fec0339ee4e275933b94b010dbc6a2db4e02e4a29756b7381e225e94dbb41e  ./zynqusp/segbits_hpio_right.db`](./zynqusp/segbits_hpio_right.db)
+ * [`1e390b0a6762a5db5cea46c321b24cc6961db637c5ff78dfb68c1f977e539331  ./zynqusp/segbits_hpio_right.origin_info.db`](./zynqusp/segbits_hpio_right.origin_info.db)
  * [`f53f8d60b18d4f0d5902decd09aa11b4c2f4f32affe4561cc018f2c2fac0143f  ./zynqusp/segbits_int.db`](./zynqusp/segbits_int.db)
  * [`dfd5fd737f9a6afb092a5ec4bebc8012cc6a3310137164a8b02044a5eed39179  ./zynqusp/segbits_int.origin_info.db`](./zynqusp/segbits_int.origin_info.db)
  * [`612f1f1aa05aeecffb6181079bb41cc2c9e451a719ef75aa649acb3c2d24f2dd  ./zynqusp/segbits_int_intf_left_term_pss.db`](./zynqusp/segbits_int_intf_left_term_pss.db)
@@ -132,8 +132,8 @@ Results have checksums;
  * [`394972d5a3dea429c2b654912d9f27d874f070e2bc63f7bdfbd7acb227d7a3dd  ./zynqusp/segbits_rclk_intf_left_term_alto.origin_info.db`](./zynqusp/segbits_rclk_intf_left_term_alto.origin_info.db)
  * [`ee9156d2939e5e1a0b21defa58b8e53520738d19de26f0a82489a4a0c4b5432d  ./zynqusp/segbits_rclk_xiphy_outer_right.db`](./zynqusp/segbits_rclk_xiphy_outer_right.db)
  * [`5e17e3b76d1c9fd6a25a8a062051c396fe7867a46d697ab919479dcc145188b4  ./zynqusp/segbits_rclk_xiphy_outer_right.origin_info.db`](./zynqusp/segbits_rclk_xiphy_outer_right.origin_info.db)
- * [`a96c967556bd500d83161b8c043f4471dd27d41de54c73e07896996bcfc18572  ./zynqusp/segbits_xiphy_byte_right.db`](./zynqusp/segbits_xiphy_byte_right.db)
- * [`a62eec460ac233fcd3c1a016e73a985deca0f5c33130793e6e71736d4d4a459d  ./zynqusp/segbits_xiphy_byte_right.origin_info.db`](./zynqusp/segbits_xiphy_byte_right.origin_info.db)
+ * [`cbd8823b49165e45f3285d84b7d7bbb7b18881fc175a729c641b5a430f726471  ./zynqusp/segbits_xiphy_byte_right.db`](./zynqusp/segbits_xiphy_byte_right.db)
+ * [`6b2c40586d83ce52b4445c95c9518124fd73df1394fb810e4348f9bd0406dc6a  ./zynqusp/segbits_xiphy_byte_right.origin_info.db`](./zynqusp/segbits_xiphy_byte_right.origin_info.db)
  * [`9790b6d0f981ad2ada9eede51aaac4d2cb8f2452556ad7c4272ea00c0b990863  ./zynqusp/site_types/site_type_BIAS.json`](./zynqusp/site_types/site_type_BIAS.json)
  * [`ed4e4a673acf63f067253efd64499e11449f535d8077aeea46a5acd71d6e2143  ./zynqusp/site_types/site_type_BITSLICE_CONTROL.json`](./zynqusp/site_types/site_type_BITSLICE_CONTROL.json)
  * [`43936af17425f2b3ddc11164ef31dd9f91373da1e992edd2ac9f550d674b17a9  ./zynqusp/site_types/site_type_BITSLICE_RX_TX.json`](./zynqusp/site_types/site_type_BITSLICE_RX_TX.json)
